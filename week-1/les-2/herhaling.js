@@ -1,31 +1,23 @@
-const amount = 1000; // number
-const name = "Michael"; // string
-const isDocent = true; // boolean
-let x; // undefined
-console.log(x); // undefined
+const animal = "rode panda"; // string
+const amount = 10; // number
 
-if (isDocent) {
-  console.log(name + " is een docent");
-  console.log(`${name} is een docent`);
-} else {
-  console.log(name + " is geen docent");
-  console.log(`${name} is geen docent`);
+console.log("De " + animal + " is een dier");
+console.log(`De ${animal} is een dier`);
+
+const isSmall = false; // boolean -> true / false
+
+// voorbeeld 1
+if (isSmall === true) {
+  console.log("Het dier is klein");
 }
 
-if (isDocent && name === "Michael") {
-  console.log(`${name} is docent Programming 1`);
-} else if (isDocent) {
-  console.log(`${name} is geen docent Programming 1`);
-} else {
-  console.log(`${name} is geen docent`);
+if (isSmall !== true) {
+  console.log("Het dier is groot");
 }
 
-if (isDocent) {
-  if (name === "Michael") {
-    console.log(`${name} is docent Programming 1`);
-  } else {
-    console.log(`${name} is geen docent Programming 1`);
-  }
+// voorbeeld 2
+if (isSmall === true) {
+  console.log("Het dier is klein");
 } else {
-  console.log(`${name} is geen docent`);
+  console.log("Het dier is groot");
 }
