@@ -1,0 +1,4 @@
+(() => {
+  // logica
+  console.log(events);
+})();

@@ -1,0 +1,2 @@
+// arrays
+const navItems = [];
